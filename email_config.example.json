@@ -1,0 +1,8 @@
+{
+  "smtp": "smtp.gmail.com",
+  "port": "587",
+  "user": "votre_email@gmail.com",
+  "password": "votre_app_password_ici",
+  "to": "notifications@example.com",
+  "enabled": false
+}

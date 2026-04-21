@@ -1,0 +1,23 @@
+# BovTemp v5 - Dépendances Python
+
+# Base de l'application (généralement pré-installées)
+# tkinter      # Interface graphique (incluse avec Python)
+# sqlite3      # Base de données (incluse avec Python)
+
+# Graphiques et visualisation
+matplotlib>=3.5.0
+
+# Gestion de fichiers Excel
+openpyxl>=3.8.0
+
+# Communication série (RFID)
+pyserial>=3.5
+
+# (Optionnel) Détection automatique de ports série
+pyserial-miniterm>=0.0.15
+
+# Notes importantes :
+# - Pour Ubuntu/Debian : sudo apt-get install python3-tk
+# - Pour Fedora : sudo dnf install python3-tkinter
+# - winsound (Windows) est une library stdlib
+# - email.mime (SMTP) est une library stdlib
